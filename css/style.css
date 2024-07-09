@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: #1e202b;
+}
+.navbar{
+    background-color: #2c3045 !important;
+    padding: 20px 0;
+}
+.navbar-nav{
+    margin: auto;
+    padding-left: 20%;
+}
+
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav  .nav-item .nav-link{
+    border-radius: 20px;
+    transition: .5s all;
+    color: #fff;
+}
+.navbar-nav  .nav-item .active{
+    border: 2px solid #009ad8;
+    color:  #009ad8 !important;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border: 2px solid #009ad8;
+    color:  #009ad8;
+}
+.navbar-toggler {
+    border: 3px solid transparent;
+    transition: .2s all;
+}
+.navbar-toggler:hover {
+    border-color:#009ad8;
+}
+.navbar-toggler:hover .fa-bars{
+    color: #009ad8 !important;
+}
+.site-title{
+    font-size: 25px;
+    margin-bottom:-10px;
+}
+.site-description{
+    font-size: 13px;
+}
+
+.searchform{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    
+}
+
+.box{
+    margin-top: -160px;
+} 
+#search,#sub{
+    background-color: #1e202b;
+    border-radius: 30px;    
+}
+#search::placeholder,#sub::placeholder{
+        color: #a0a0a0;
+}
+
+#search:focus,#sub:focus{
+    background-color: #1e202b;
+    color: #fff;
+    box-shadow:none;
+}
+.forecast div{
+    color: #fff;
+}
+#sub{
+    margin: auto;
+}
+.btn{
+    border-radius: 20px;
+    padding: 15px 40px;
+    
+}
+.footer{
+    background-color: #2c3045;
+    padding: 10px 0;
+}
+.social-links a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: 0.5s all;
+    font-size: 22px;
+    display: flex;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+.social-links a:hover{
+    background:#009ad8 ;
+    color:#fff;
+}
+.day1,.day3{
+    background-color: #323544;
+
+}
+
+.day1 .head,.day2 .head,.day3 .head{
+    background-color: #2a2c39;
+    color: #a0a0a0;
+}
+.day1 .head div{
+    color: #a0a0a0;
+}
+
+.day2{
+    background-color: #262936;
+}
+.day2 .head{
+    background-color: #191b24;
+}
+.head{
+    padding: 10px 0;
+}
+.temp{
+    font-size: 60px;
+    font-weight: 600;
+}
+.max{
+    font-size: 30px;
+
+}
+.min{
+    font-size: 20px;
+    color: #a0a0a0;
+}
+
+
+@media (max-width:992px) {
+    .navbar-nav{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    
+}

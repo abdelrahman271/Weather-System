@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+                <img src="images/logo.png" alt="">
+                <div class="logo-text px-3">
+                    <h1 class="site-title text-light">Weather</h1>
+                    <small class="site-description text-light">tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-light"></i>            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link  active px-3 mx-2" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link  px-3" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link  px-3" href="#" >Live cameras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="searchform">
+        <div class="container">
+            <form class="form-location d-flex justify-content-center align-items-center position-relative">
+                <input type="text" placeholder="Find your location..." id="search" class="form-control w-100 p-4 my-5">
+            </form>
+        </div>
+    </div>
+        <div class="box">
+            <div class="container">
+                <div class="forecast d-flex flex-wrap justify-content-center mt-2 mb-5  " id="forecast">
+                    <div class="day1 col-12 col-lg-4 mb-3"></div>
+                    <div class="day2 col-12 col-lg-4 mb-3 text-center"></div>
+                    <div class="day3 col-12  col-lg-4 mb-3 text-center"></div>
+            </div>
+            </div>
+        </div>
+    
+    
+    <div class="footer">
+            <div class="container">
+                <div class="content d-flex align-items-center justify-content-center">
+                    <form class="form-sub w-100 text-center">
+                        <input type="text" placeholder="Enter your email to subscribe..." id="sub" class="form-control w-75 p-4 my-3">
+                        <button class="btn btn-info text-light">Subscribe</button>
+                    </form>
+                </div>
+                <div class="social-links d-flex text-center justify-content-center">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+                <p class="copy text-center text-light"> &copy; Copyright 2024 Designed by Abdelrahman Fathy. All rights reserved</p>
+            </div>
+            </div>
+    
+    
+    <script src="javascript/main.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+</body>
+</html>
